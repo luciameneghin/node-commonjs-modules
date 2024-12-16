@@ -1,2 +1,12 @@
 const name = require('./names')
-const hobbies = require('./hobbies')
+const hobby = require('./hobbies');
+
+
+function people() {
+  return {
+    fullName: name('carlo', 'magno'),
+    hobbies: hobby('lettura', 'arrampicata', 'biliardo')
+  }
+}
+
+console.log(people());

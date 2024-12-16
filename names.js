@@ -5,6 +5,6 @@ function names(firstName, lastName) {
   }
 }
 
-console.log(names('carlo', 'magno'));
+// console.log(names('carlo', 'magno'));
 
 module.exports = names;
