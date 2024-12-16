@@ -1,5 +1,8 @@
 function names(firstName, lastName) {
-  return { firstName: firstName, lastName: lastName }
+  return {
+    firstName,
+    lastName
+  }
 }
 
 console.log(names('carlo', 'magno'));
