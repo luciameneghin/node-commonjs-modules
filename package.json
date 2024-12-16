@@ -1,0 +1,26 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "main": "hobbies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startName": "node names.js",
+    "devName": "node --watch names.js",
+    "startHobbies": "node hobbies.js",
+    "devHobbies": "node --watch hobbies.js",
+    "startPeople": "node people.js",
+    "devPeople": "node --watch people.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciameneghin/node-commonjs-modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciameneghin/node-commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/luciameneghin/node-commonjs-modules#readme",
+  "description": ""
+}
