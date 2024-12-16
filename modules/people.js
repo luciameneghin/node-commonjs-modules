@@ -10,3 +10,5 @@ function people() {
 }
 
 console.log(people());
+
+module.exports = people;
